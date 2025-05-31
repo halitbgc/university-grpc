@@ -12,14 +12,13 @@ Python ile geliştirilen bu repo, üniversite kütüphane sistemi için üç tem
 ```
 university-grpc/
 ├── university.proto             # Protobuf tanımları
-├── university_pb2.py            # Otomatik üretilen mesaj tipleri
-├── university_pb2_grpc.py       # Otomatik üretilen stub’lar
 ├── grpcurl-tests.md             # grpcurl ile manuel testler
 ├── README.md                    # Bu dosya
 ├── server.py                    # gRPC sunucu uygulaması
 ├── client.py                    # gRPC istemci örnekleri
 └── DELIVERY.md                  # Teslim dosyası
 ```
+! Stub dosyaları dahil edilmemiştir.
 
 ---
 
