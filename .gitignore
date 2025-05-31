@@ -1,0 +1,12 @@
+# Python cache ve sanal ortam dosyaları
+__pycache__/
+*.pyc
+venv/
+
+# Protobuf’dan üretilen stub dosyaları (ignore)
+university_pb2.py
+university_pb2_grpc.py
+
+# Herhangi bir log veya geçici dosya
+*.log
+.DS_Store
